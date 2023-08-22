@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <image src='{{src}}'></image>
+  <text>{{name}}</text>
+  <button  bindtap="getUserProfile"> please click </button>
+</view>
