@@ -1,0 +1,11 @@
+<video id="videoID" controls src="{{videoSrc}}" enable-danmu danmu-btn></video>
+<view class="Danmu">
+  <input type="text" placeholder="输入弹幕" model:value="{{danmu}}"></input>
+  <button style="width: 30vw;font-size: 20rpx;" bindtap="sendDanmu">发送弹幕</button>
+</view>
+<view class="videoList">
+  <view class="videoBar" wx:for="{{list}}" wx:key="index" data-url="{{item.videoUrl}}" bindtap="playVideo">
+    <image src="{{item.imgUrl}}"></image>
+    <text>{{item.title}}</text>
+  </view>
+</view>
