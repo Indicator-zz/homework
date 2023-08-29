@@ -1,0 +1,7 @@
+<!--pages/game/game.wxml-->
+<view class="container">
+  <view class="title">提示图</view>
+  <image src="{{url}}"></image>
+  <canvas canvas-id="myCanvas" bindtouchstart="touchBox" style="height: 300rpx;width: 300rpx;"></canvas>
+  <button type="warn" bind:tap="restartGame">重开</button>
+</view>
