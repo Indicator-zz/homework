@@ -1,0 +1,18 @@
+/* pages/game/game.wxss */
+image{
+  width: 250rpx;
+  height: 250rpx;
+}
+canvas{
+  border: 1rpx solid;
+  width: 300 rpx;
+  height: 300 rpx;
+}
+button{
+  background-color: aqua;
+  margin: 10rpx;
+}
+.buttonS{
+  display: flex;
+  flex-direction: row;
+}

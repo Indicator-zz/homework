@@ -1,0 +1,14 @@
+<!--pages/game/game.wxml-->
+<view class="container">
+  <view class="title">第{{level}}关</view>
+  <canvas canvas-id="myCanvas" style="height: 600rpx;width: 600rpx;"></canvas>
+  <view class="buttonBox">
+    <button style="width:20vw" bind:tap="tapUp">up</button>
+    <view class="buttonS">
+      <button style="width:20vw;  margin: 10rpx;" bind:tap="tapLeft">left</button>
+      <button style="width:20vw;  margin: 10rpx;" bind:tap="tapDown">down</button>
+      <button style="width:20vw;  margin: 10rpx;" bind:tap="tapRight">right</button>
+    </view>
+  </view>
+  <button type="warn" bind:tap="restartGame">重开</button>
+</view>
